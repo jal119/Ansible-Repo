@@ -10,4 +10,4 @@ mkdir Ansible && cd Ansible
 pwd
 git clone https://github.com/jal119/Ansible-Repo.git
 cd Ansible-Repo
-ansible-playbook -i localhost Jenkins.yml
+ansible-playbook -i localhost Jenkins-playbook.yml
